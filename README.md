@@ -97,7 +97,7 @@ To run the project, follow these steps:
 3. Start the frontend server:
 
    ```bash
-   cd ../frontend
+   cd ../front-end
    ng serve
    ```
 
@@ -118,71 +118,4 @@ This project is licensed under the [MIT License](LICENSE).
 ## Contact
 
 For any questions or feedback, feel free to contact the project maintainer: [Your Name](mailto:achrefjlidi8@gmail.com).
-
----
-
-Feel free to customize this template further according to your specific project details and requirements. Once customized, save it as `README.md` in the root directory of your GitHub repository.
-## Technologies Used
-
-Outline the technologies and frameworks used in your project.
-
-- Backend: Node.js
-- Frontend: Angular
-- Database: (if applicable)
-- Other technologies...
-
-## Getting Started
-
-Provide instructions on how to get started with your project. Include details on how to install dependencies and run the project locally.
-
-### Prerequisites
-
-List any software or tools that users need to have installed before they can use your project.
-
-- Node.js
-- npm (or yarn)
-- Angular CLI (if applicable)
-
-### Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/achrefjlidi/crud-auth
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd your-repository
-   ```
-
-3. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-   Or if you're using yarn:
-
-   ```bash
-   yarn install
-   ```
-
-## Usage
-
-Provide examples or instructions on how to use your project. Include any relevant commands or scripts.
-
-## Contributing
-
-Explain how others can contribute to your project. Provide guidelines for code contribution, bug reporting, or feature requests.
-
-## License
-
-Specify the license under which your project is distributed.
-
-## Contact
-
-Provide contact information for users to reach out to you with questions or feedback.
-
 
