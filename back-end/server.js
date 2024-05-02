@@ -21,12 +21,22 @@ app.use(express.urlencoded({ extended: true }));
 
 // simple route
 app.get("/", (req, res) => {
-  res.json({ message: "Welcome to my achref nodeJS application." });
+  res.json({ message: "Welcome to my achref NodeJS application." });
 });
 
 require("./routes/turorial.routes")(app);
 require('./routes/auth.routes')(app);
 require('./routes/user.routes')(app);
+
+const db = require("./models");
+const Role = db.role;
+// set port, listen for requests
+const PORT = process.env.NODE_DOCKER_PORT || 8080;
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}.`);
+
+});
+
 function initial() {
   Role.estimatedDocumentCount((err, count) => {
     if (!err && count === 0) {
@@ -62,9 +72,3 @@ function initial() {
     }
   });
 }
-// set port, listen for requests
-const PORT = process.env.NODE_DOCKER_PORT || 8080;
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}.`);
-
-});

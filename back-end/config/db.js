@@ -11,7 +11,4 @@ mongoose
 		console.log("error with connecting with the DB ", error);
 	});
 
-module.exports = {
-	secret: "bezkoder-secret-key"
-	};
   //mongodb+srv://achref:<password>@nodecluster.w8skzvj.mongodb.net/?retryWrites=true&w=majority&appName=NodeCluster
